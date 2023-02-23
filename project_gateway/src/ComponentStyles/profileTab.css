@@ -1,12 +1,24 @@
+.profile{
+    margin:auto;
+    margin-top:100px;
+    margin-left:50px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 30px rgb(9, 9, 9);
+    width:1040px;
+    height: 540px;
+}
+
 .profile_form_header{
     padding:20px;
     display:flex;
     width:350px;
     margin:auto
+    
    
 }
 .profile_form_image_main{
     width:20%;
+  
 }
 .profile_form_image{
     width:calc(100%-10px);
@@ -17,6 +29,7 @@
     width:80%;
     line-height:30px;
     padding:15px;
+    
 }
 .index_text{
     color:rgb(92,15,15);
@@ -45,7 +58,7 @@
 .profile_form_main{
     width:650px;
     margin:auto;
-    background-color: antiquewhite;
+  
 }
 .profile_input{
     border-radius: 6px;

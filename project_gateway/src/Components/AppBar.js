@@ -1,6 +1,6 @@
 import * as React from "react";
 import AppBar from "@mui/material/AppBar";
-import favicon from "../images/favicon.ico";
+import favicon from "../images/favicon.png";
 import "../ComponentStyles/appbar.css";
 
 const Header = () => {

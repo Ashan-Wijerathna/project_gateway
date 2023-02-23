@@ -23,7 +23,7 @@ const Profile =() => {
     };
 
     return(
-        <div>
+        <div className="profile">
             <div className="profile_form_header">
                 <div className="Profile_form_image_main">
                     <img

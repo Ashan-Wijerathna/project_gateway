@@ -1,5 +1,5 @@
 import "../ComponentStyles/homeHeader.css";
-import favicon from "../images/favicon.ico";
+import favicon from "../images/favicon.png";
 import landing_main1 from "../images/landing_main1.png";
 import HomePayments from "./HomePayments";
 

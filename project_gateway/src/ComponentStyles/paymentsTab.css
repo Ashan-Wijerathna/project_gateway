@@ -1,18 +1,25 @@
 .payments_tab_form{
     padding:20px;
-    width:400px;
     margin:auto;
-    background-color: rgb(246, 243, 240);
+    box-shadow: 0px 0px 30px rgb(9, 9, 9);
     border-radius: 6px;
-    box-shadow: 10px 10px 5px rgb(88, 88, 88);
-  
+    width:1000px;
+    height: 500px;
+    margin: 100px;
+    margin-left:50px;
+    margin-right:50px;  
+}
+.payment_form{
+    width:500px;
+    margin-left: 250px;
+   
 }
 .payment__tab_header{
     text-align:center;
     font-weight:700;
     color:rgb(92,15,15);
-    margin:10px;
-    margin-top:20px;
+    margin:2px;
+    margin-top:5px;
 }
 .form_row{
     color:rgb(92,15,15);
@@ -32,12 +39,14 @@
     line-height: 1 !important;
     font-size:15px !important;
 }
+
 .payments_input{
     border-radius:6px;
     border:1px solid;
-    width: calc(100% - 14px);
+    width:calc(100% - 14px); 
     padding:6px;
     cursor:pointer;
     background-color: white;
     margin-bottom:10px;
+    position: relative;
 }

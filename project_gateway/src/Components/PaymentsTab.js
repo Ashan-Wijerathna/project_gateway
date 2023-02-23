@@ -25,8 +25,10 @@ const PaymentForm =() => {
     };
 
     return(
+    
         <div className="payments_tab_form">
-            <div className="payment__tab_header"><h2>Payments</h2></div>
+            <div className="payment__tab_header"><h2>Paymentss</h2></div>
+            <div className="payment_form">
 
             {PAYMENTS.map((field)=>{
                 if(field.show){
@@ -58,6 +60,8 @@ const PaymentForm =() => {
             })}
             <Button className="pt_next_button">Next</Button>  
         </div>
+        </div>
+   
     );
 };
 
