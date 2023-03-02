@@ -1,5 +1,6 @@
 export const PAYMENTS=[
     {
+    
         id:"firstName",
         name:"firstName",
         label:"First Name",
@@ -17,6 +18,7 @@ export const PAYMENTS=[
         disabled: false,
         show:true,
     },
+
     {
         id:"index",
         name:"index",
@@ -31,7 +33,7 @@ export const PAYMENTS=[
         name:"phone",
         label:"Phone",
         className:"payments_input",
-        type:"Number",
+        type:"text",
         disabled: false,
         show:true,
     },

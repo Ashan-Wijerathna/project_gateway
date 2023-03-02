@@ -449,6 +449,7 @@
     border:0 !important;
     border-radius:4px !important;
     padding:0 !important;
+    height: 30px !important;
 }
 
 .receipts_table_main{
@@ -466,6 +467,7 @@
     display:flex;
     justify-content:space-between;
     padding-bottom:20px;
+    height: 30px;
 }
 
 .view_receipts_button{

@@ -33,8 +33,8 @@ const Profile =() => {
                         />
                 </div>
                 <div className="index_user_text_main">
-                    <div className="index_text">index last Name first Name</div>
-                    <div className="user_name_text">User Name</div>
+                    <div className="index_text"><h3>Create User Profile Form</h3></div>
+                    <div className="user_name_text"></div>
                 </div>
             </div>
             <hr className="hr_line"/>

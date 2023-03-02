@@ -27,7 +27,8 @@ const PaymentForm =() => {
     return(
     
         <div className="payments_tab_form">
-            <div className="payment__tab_header"><h2>Paymentss</h2></div>
+        
+            <div className="payment__tab_header"><h3>Payments</h3></div>
             <div className="payment_form">
 
             {PAYMENTS.map((field)=>{

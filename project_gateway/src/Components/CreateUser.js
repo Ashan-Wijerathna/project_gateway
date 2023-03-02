@@ -45,7 +45,7 @@ return(
             <img className="cu_image"src={Student} alt="firespot"/>
             <div className="cu_title">
                 <div className="cu_signup">Sign Up</div>
-                <div className="cu_user">EUSL User</div>
+                <div className="cu_user">UCSC User</div>
             </div>
             <div>
                 <hr/>

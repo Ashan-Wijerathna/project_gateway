@@ -8,7 +8,7 @@ const HomeHeader = ()=>{
         <div>
             <div className="home_header">
                 <img src ={favicon} alt ="firespot"/>
-                <div className ="uom_label">EUSL Payment Management System</div>
+                <div className ="uom_label">UCSC Payment Management System</div>
             </div>
             <div className="gradient">
                 <div className= "home_label_main">
@@ -18,7 +18,7 @@ const HomeHeader = ()=>{
                     </div>
                     <div className="home_label_3">
                         <span>
-                            The University of Eastern is the country's leading technological
+                            The University of Colombo School of Computing (UCSC) is the country's leading technological
                             higher education institution, succeeding locally and
                             internationally. This gateway is for quick and secure university
                             related payments.

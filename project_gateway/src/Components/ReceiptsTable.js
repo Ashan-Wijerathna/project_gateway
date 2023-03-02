@@ -32,21 +32,22 @@ class ReceiptsTable extends Component{
 
         return(
             <div className="receipts_table_main">
-                <div className="receipts_label"><h2>Receipts</h2></div>
+                <div className="receipts_label"><h3>Receipts</h3></div>
                 <div>
                     <div className="two_buttons">
                         <button className="make_a_payment_button">+make a payment</button>
                             <div className="search_bar">
-                                <SearchBar
-                                sx={{
-                                    color:"success.main",
-                                    "&.MuiInputBase-input":{
-                                        borderRadius:"1px",
-                                        padding:"0",
-                                        width:"200px",   
-                                    },
+                            <SearchBar
+                             sx={{
+                                 color: "success.main",
+                                 "& .MuiInputBase-input": {
+                                 borderRadius: "1px",
+                                padding: "0",
+                                width: "200px",
+                                height:"30px",
+                                },
                                 }}
-                                />
+                             />
                             </div>
                             </div>
                             <TableContainer component={Paper}>
